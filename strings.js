@@ -32,5 +32,30 @@ console.log(partOfStr);
 // replace
 let annoyingLaugh = 'teehee so funny! teehee';
 console.log(annoyingLaugh);
- let replacer = annoyingLaugh.replace('teehee', 'haha')
+ let replacer = annoyingLaugh.replace('teehee', 'haha');
+
+ let song ='london calling';
+ let upper = song.toUpperCase();
+ console.log(upper);
+
+//  template literals
+let totals = `We are ${20}`;
+console.log(totals);
+
+
+let cohortOne = 15;
+let cohortTwo = 20;
+
+let femidevs = `We are ${cohortOne + cohortTwo} in total`;
+console.log(femidevs);
+
+let drinks = `soda`;
+let quantity = 2;
+let price = 970;
+// We bought 2 crates of soda at kshs.1940
+let  soda = `we bought 2 crates of soda at kshs 1940 ${quantity * price}`;
+console.log(soda);
+
+ 
+
 
